@@ -13,6 +13,7 @@ class TabLink {
 		//and toggle class name from this.content
 		this.tabElementProperty.addEventListener('click', () => {
 			this.content.classList.toggle('change');
+			//could have created another class content with its own method
 		})
 
 	}
